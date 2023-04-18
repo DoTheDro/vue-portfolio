@@ -11,8 +11,11 @@
 </script>
 
 <template>
-    <div class="w-full p-4 flex flex-col justify-center gap-2 h-screen-93">
-        <h1 class="text-gray-100 text-5xl font-semibold">{{ name }}</h1>
+    <div data-aos="fade-up" 
+        data-aos-duration="700"
+        data-aos-once="true"
+    class="w-full p-4 flex flex-col justify-center gap-2 h-screen-93">
+        <h1 class="text-gray-100 text-5xl font-semibold">{{ name }}.</h1>
         <h4 class="text-gray-100 text-2xl font-medium">{{ job }}</h4>
         <h5 class="text-gray-100 text-base font-normal">{{ briefing }}</h5>
         <div class="flex pt-8">
