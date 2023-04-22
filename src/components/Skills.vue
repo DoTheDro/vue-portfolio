@@ -46,7 +46,7 @@
             data-aos-duration="1000"
             data-aos-once="true"
         class="custom-bg w-11/12 rounded-xl m-auto p-5 custom-shadow flex flex-col gap-2">
-            <p class="text-gray-100 text-base">Technologies I am knowledgeable with:</p>
+            <p class="text-gray-100 text-base">Technologies I used and comfortable with:</p>
             <div class="flex flex-row flex-wrap gap-3 mb-5">
                 <div class="flex flex-col gap-2 duration-500 lg:hover:scale-110" v-for="presentSkill in presentSkills">
                     <img :src="presentSkill['image']" :alt="presentSkill['title']" class="w-12 h-12 m-auto">
