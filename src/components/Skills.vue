@@ -21,7 +21,6 @@
                     { image: javascript, title: 'JavaScript' },
                     { image: bootstrap, title: 'Bootstrap' },
                     { image: tailwind, title: 'Tailwind' },
-                    { image: react, title: 'React' },
                     { image: vue, title: 'Vue' },
                     { image: figma, title: 'Figma' },
                     { image: github, title: 'GitHub' },
